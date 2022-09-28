@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.2)  28 SEP 2022 18:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.2)  28 SEP 2022 19:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1143,18 +1143,35 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [5
 
+] [6
+
+] [7
+
+] [8
+
+] [9
+
 ]
-Overfull \hbox (15.34727pt too wide) detected at line 115
+Overfull \hbox (15.34727pt too wide) detected at line 166
 []
  []
 
 
-Overfull \vbox (64.67357pt too high) detected at line 115
+Overfull \vbox (1.56752pt too high) detected at line 166
  []
 
-[6
+[10
 
-] (./slide.toc) [7
+]
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 189.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 189.
+ [11
+
+] [12
+
+] (./slide.toc) [13
 
 ]
 \tf@nav=\write6
@@ -1171,18 +1188,18 @@ Package rerunfilecheck Info: File `slide.out' has not changed.
 (rerunfilecheck)             Checksum: 4B1D8E50C8049941D8C51CB50D0523F3;496.
  ) 
 Here is how much of TeX's memory you used:
- 30052 strings out of 478268
- 572053 string characters out of 5850346
- 839738 words of memory out of 5000000
- 47339 multiletter control sequences out of 15000+600000
- 516349 words of font info for 189 fonts, out of 8000000 for 9000
+ 30326 strings out of 478268
+ 576132 string characters out of 5850346
+ 842772 words of memory out of 5000000
+ 47525 multiletter control sequences out of 15000+600000
+ 535420 words of font info for 259 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,20n,122p,744b,863s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf>{d:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb>
-Output written on slide.pdf (7 pages, 309368 bytes).
+<c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf>{d:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb><d:/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfss1200.pfb>
+Output written on slide.pdf (13 pages, 371723 bytes).
 PDF statistics:
- 708 PDF objects out of 1000 (max. 8388607)
- 530 compressed objects within 6 object streams
- 19 named destinations out of 1000 (max. 500000)
- 289 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1045 PDF objects out of 1200 (max. 8388607)
+ 836 compressed objects within 9 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 313 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,5 @@
+PWD d:/Git_vscode/Beamer_XingFa-1
+INPUT d:/texlive/2022/texmf.cnf
+INPUT d:/texlive/2022/texmf-dist/web2c/texmf.cnf
+INPUT d:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT d:/Git_vscode/Beamer_XingFa-1/slide.tex

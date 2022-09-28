@@ -100,9 +100,59 @@ $=1$之间的每一个值.此与$f$的定义相矛盾.因此，$f\text{在}\left
 \end{frame}
 
 
+\begin{frame}{反例构造3}
+	\begin{spacing}{1.5}
+		\textcolor{red}{例3.}积分的极限不等于极限的积分的函数列.\\
+		在闭区间$\left[ 0,1 \right]$上如下定义函数列：
+		$$
+		f_n\left( x \right) =\left\{ \begin{array}{l}
+			n,\,\,\,\,0<x\le \frac{1}{n},\\
+			0,\,\,\,\,x=0\text{或}\frac{1}{n}<x\le 1.\\
+		\end{array} \right. 
+		$$
+		易见，对每一正整数$n,f_n$在$\left[ 0,1 \right]$上都是可积的，且
+		$$\lim_{n\rightarrow \infty}\int_0^1{f_n\left( x \right) dx=1.}$$
+	\end{spacing}
+\end{frame}
 
-\begin{frame}{问题简化}
-设$\lim\limits_{n \rightarrow + \infty}a_{n}=a, \lim\limits_{n \rightarrow + \infty}b_{n}=b$.证明：\par
+
+\begin{frame}{反例构造3}
+	\begin{spacing}{1.5}
+		但是，
+		$$\int_0^1{\lim_{n\rightarrow \infty}}f_n\left( x \right) dx=\int_0^1{0dx=0.}$$
+		因此，
+		$$\lim_{n\rightarrow \infty}\int_0^1{f_n\left( x \right) dx\ne}\int_0^1{\lim_{n\rightarrow \infty}}f_n\left( x \right) dx.$$
+		
+	\end{spacing}
+\end{frame}
+
+
+\begin{frame}{反例构造3}
+	\begin{spacing}{1.5}
+		更为极端的例子是
+		$$f_n\left( x \right) =\left\{ \begin{array}{l}
+			2n^3x,\ \ \ \ \ \ 0\le x\le \frac{1}{2n}\\
+			n^2-2n^3\left( x-\frac{1}{2n} \right) ,\ \frac{1}{2n}\le x\le \frac{1}{n}\\
+			0,\ \frac{1}{n}\le x\le 1\\
+		\end{array} \right. 
+		$$
+		此时，对任何$b\epsilon \left( 0,1 \right]$
+		，都有
+		$$\lim_{n\rightarrow \infty}\int_0^b{f_n\left( x \right) dx=}\lim_{n\rightarrow \infty}\frac{n}{2}=\infty ,$$
+	\end{spacing}
+\end{frame}
+
+
+\begin{frame}{反例构造3}
+	\begin{spacing}{1.5}
+		而
+		$$\int_0^b{\lim_{n\rightarrow \infty}f_n\left( x \right) dx=}\int_0^b{0dx=0.}$$
+	\end{spacing}
+\end{frame}
+
+\begin{frame}{问题简化1}
+	\begin{spacing}{1.5}
+		\textcolor{red}{例4.}设$\lim\limits_{n \rightarrow + \infty}a_{n}=a, \lim\limits_{n \rightarrow + \infty}b_{n}=b$.证明：\par
 $$\lim_{n \rightarrow + \infty}\frac{a_{1}b_{n}+a_{2}b_{n-1}+ \cdots +a_{n}b_{1}}{n}=ab$$
 证：能否“不妨设”$b=0$？\par 记$\beta _{n}=b_{n}-b$，$\alpha  _{n}=a_{n}-a$，则$\lim\limits _{n \rightarrow + \infty}\beta _{n}=0$，
 $\lim\limits _{n \rightarrow + \infty}\alpha _{n}=0$
@@ -112,7 +162,66 @@ $\lim\limits _{n \rightarrow + \infty}\alpha _{n}=0$
 =& \lim_{n \rightarrow + \infty}\frac{a_{1}\beta _{n}+a_{2}\beta _{n-1}+ \cdots +a_{n}\beta _{1}}{n}
 +b \lim _{n \rightarrow + \infty}\frac{a_{1}+a_{2}+ \cdots +a_{n}}{n}&\nonumber
 \end{flalign}
+\end{spacing}
 \end{frame}
+
+\begin{frame}{问题简化2}
+	\begin{spacing}{1.2}
+		\textcolor{red}{例5.}设$f\left( x \right) \text{在}\left( a,b \right) \text{内二阶可导，}c\text{为}\left( a,b \right) \text{内一点，满足}f^{''}\left( c \right) \ne 0.\text{则}
+		$
+		$
+		\text{在}\left( a,b \right) \text{内存在}x_1\ne x_2\text{使得}
+		$
+		$$
+		\frac{f\left( x_2 \right) -f\left( x_1 \right)}{x_2-x_1}=f^{'}\left( c \right) .
+		$$
+		证：能否“不妨设”$f^{'}\left( c \right) =0\text{？}$
+		$
+		\text{记}F\left( x \right) =f\left( x \right) -f^{'}\left( c \right) x.\text{则题设条件化为}
+		$
+		$$
+		F^{'}\left( c \right) =0\text{，}F^{''}\left( c \right) =f^{''}\left( c \right) \ne 0.
+		$$
+		$
+		\left( \text{这意味着}\boldsymbol{c}\text{是}F\left( x \right) \text{的严格极大值点或严格极小值点} \right) 
+		$
+	\end{spacing}
+\end{frame}
+
+\begin{frame}{问题简化2}
+	\begin{spacing}{1.5}
+		$\text{而需要求证的化为：寻找两个点有相同的函数值}.
+		$
+		$
+		\text{证明：不妨设}F^{''}\left( c \right) >0,\text{且}c\text{是}F\left( x \right) \text{的严格极小值点}.
+		$
+		$
+		\text{于是存在}\alpha ,\beta \text{有：}a<\alpha <c<\beta <b
+		$
+		，使得
+		$F\left( \alpha \right) >F\left( c \right)
+		$且
+		$F\left( \beta \right) >F\left( c \right).
+		$\\
+		$
+		\text{当}F\left( \alpha \right) =F\left( \beta \right) \text{时，问题已经得证}.
+		$
+		$
+		\text{当}F\left( \alpha \right) >F\left( \beta \right) \text{时，因为}F\left( c \right) <F\left( \beta \right) <F\left( \alpha \right)
+		$
+		，由连续函数的介质定理可知：
+		$
+		\text{存在}\xi \epsilon \left( \alpha ,c \right) ,\text{使得}F\left( \xi \right) =F\left( \beta \right) \text{，结论成立。}
+		$
+		$
+		\text{同理可证，当}F\left( \alpha \right) <F\left( \beta \right) \text{时结论也成立。}
+		$
+	\end{spacing}
+\end{frame}
+
+
+
+
 
 
 \section{建模问题的简化方法——目标建模法}
