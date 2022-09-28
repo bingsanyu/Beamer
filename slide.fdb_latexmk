@@ -1,10 +1,10 @@
 # Fdb version 3
-["pdflatex"] 1664363268 "d:/Git_vscode/Beamer_XingFa-1/slide.tex" "slide.pdf" "slide" 1664363284
+["pdflatex"] 1664364984 "d:/Git_vscode/Beamer_XingFa-1/slide.tex" "slide.pdf" "slide" 1664365001
   "WTU.sty" 1650246584 3392 052a537ad4a3d93dd0026c96c80928fa ""
   "c:/Windows/Fonts/msyh.ttc" 1575709707 19647736 ff2e53a6131130a07589812ea5b5b0d0 ""
   "c:/Windows/Fonts/simhei.ttf" 1571147160 9753388 6abc0fcfbaa40600f9cecca3afeb3aa7 ""
   "c:/Windows/Fonts/simkai.ttf" 1571147160 11787328 76179557c160634a761c845ea111c893 ""
-  "d:/Git_vscode/Beamer_XingFa-1/slide.tex" 1664363266 7259 e21cdbbb48227b6d54c18d124f082974 ""
+  "d:/Git_vscode/Beamer_XingFa-1/slide.tex" 1664364983 8383 aabdec2fe3e25b1891323cf9c4674c9e ""
   "d:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1654176544 2971 def0b6c1f0b107b3b936def894055589 ""
   "d:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1654176847 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "d:/texlive/2022/texmf-dist/fonts/sfd/ttf2pk/UGBK.sfd" 1654177867 182544 bcd31d5d273400b38612a969fcab55f9 ""
@@ -362,11 +362,11 @@
   "d:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1654178040 4448422 15354be9acfb30b1b7485a9cb19efaa9 ""
   "d:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1654178168 2826441 7a064091a5692a455143a7957119f4ce ""
   "d:/texlive/2022/texmf.cnf" 1654178025 713 e69b156964470283e0530f5060668171 ""
-  "slide.aux" 1664363271 3961 d997abf07b9da824fdd710b1dbd80684 "pdflatex"
-  "slide.nav" 1664363271 2196 9f78e63ca517dc83b0ce7e4871f69af0 "pdflatex"
-  "slide.out" 1664363271 496 4b1d8e50c8049941d8c51cb50d0523f3 "pdflatex"
-  "slide.tex" 1664363266 7259 e21cdbbb48227b6d54c18d124f082974 ""
-  "slide.toc" 1664363271 268 f5f966e69b1e12f008baaaba4aa2da36 "pdflatex"
+  "slide.aux" 1664364987 4105 9cc73d741ff12b6a3a5bb1da11aaa95d "pdflatex"
+  "slide.nav" 1664364987 2304 c848246de85d43b80f48d24ab6793a22 "pdflatex"
+  "slide.out" 1664364987 496 4b1d8e50c8049941d8c51cb50d0523f3 "pdflatex"
+  "slide.tex" 1664364983 8383 aabdec2fe3e25b1891323cf9c4674c9e ""
+  "slide.toc" 1664364987 268 816ce7cbabdc82470edec7e28fb8480b "pdflatex"
   (generated)
   "slide.aux"
   "slide.log"
