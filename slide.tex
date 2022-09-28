@@ -7,12 +7,13 @@
 \usepackage{latexsym,amsmath,xcolor,multicol,booktabs,calligra}
 \usepackage{graphicx,pstricks,listings,stackengine}
 % 首页
-\author{汇报人：胡兴发} %更改姓名
+\linespread{2}
+\author{汇报人：胡兴发\ \ \ \\导\ \ \ 师：张本龚} %更改姓名
 \title{本科生论坛交流分享} %更改标题
 \subtitle{竞赛问题的简化方法} %更改副标题
 \institute{数理科学学院}
 \date{2022年9月29日} %更改时间
-\institute[IaHS]{指导老师：张本龚}
+\institute[IaHS]{}
 \usepackage{WTU}
 \usepackage{setspace}
 % defs
@@ -61,12 +62,8 @@
 \end{frame}
 
 \begin{frame}{反例构造2}
-	
-	\begin{spacing}{2.0}
-
 		\textcolor{red}{例2.}没有原函数的可积函数.\\
 		设
-		
 		$$
 		f\left( x \right) =\left\{ 
 			\begin{array}{l}
@@ -75,22 +72,32 @@
 			\end{array} \right. 
 		$$
 		
-		易见，
-		$$
+		
+		$
+		\text{易见，}
 		f
 		\text{在区间}\left[ -1,1 \right] 
-		\text{上可积。然而，}f\text{在}\left[ -1,1 \right] 
-		\text{上没有原函数。事实上，如果}f\text{在}
-		$$
-
-		$$
-		\left[ -1,1 \right] \text{上有原函数}F\text{，即}F^{'}\left( x \right) =f\left( x \right) ,\ -1\le x\le 1
-		$$
-	
-		
-	\end{spacing}
+		$
+		上可积.\\然而，
+		$
+		f\text{在}\left[ -1,1 \right] 
+		$
+		上没有原函数.
 \end{frame}
+\begin{frame}{反例构造2}
+	\begin{spacing}{1.5}
+		
+事实上，如果$\left[ -1,1 \right] \text{上有原函数}F\text{，即}$
+$$F^{'}\left( x \right) =f\left( x \right) ,\ -1\le x\le 1,$$
+那么，由达布$\left( Darboux \right)$定理可知，$F^{'}$应取得$F^{'}\left( -1 \right) =0$与\\
+$F^{'}\left( 1 \right)=1$之间的每一个值，即$f$应该取得$f\left( -1 \right) =0$与
+$f\left( 1 \right)$\\
+$=1$之间的每一个值.此与$f$的定义相矛盾.因此，$f\text{在}\left[ -1,1 \right] $上\\
+没有原函数.
+\color{gray}{顺便指出，由$Darboux\text{定理可知，}$任何有跳跃间断点的函数都不可能有原函数.}
 
+\end{spacing}
+\end{frame}
 
 
 
