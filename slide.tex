@@ -1,0 +1,98 @@
+\documentclass{beamer}
+\usepackage{ctex, hyperref}
+\usepackage[T1]{fontenc}
+\usepackage{color}
+
+% other packages
+\usepackage{latexsym,amsmath,xcolor,multicol,booktabs,calligra}
+\usepackage{graphicx,pstricks,listings,stackengine}
+% 首页
+\author{汇报人：胡兴发} %更改姓名
+\title{本科生论坛交流分享} %更改标题
+\subtitle{竞赛问题的简化方法} %更改副标题
+\institute{数理科学学院}
+\date{2022年9月29日} %更改时间
+\institute[IaHS]{指导老师：张本龚}
+\usepackage{WTU}
+\usepackage{setspace}
+% defs
+\def\cmd#1{\texttt{\color{red}\footnotesize $\backslash$#1}}
+\def\env#1{\texttt{\color{blue}\footnotesize #1}}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+\definecolor{halfgray}{gray}{0.55}
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    keywordstyle=\bfseries\color{deepblue},
+    emphstyle=\ttfamily\color{deepred},    % Custom highlighting style
+    stringstyle=\color{deepgreen},
+    numbers=left,
+    numberstyle=\small\color{halfgray},
+    rulesepcolor=\color{red!20!green!20!blue!20},
+    frame=shadowbox,
+}
+\usefonttheme[onlymath]{serif}
+% 文档开始
+\begin{document}
+% 设置默认字体
+\kaishu
+% 标题页
+\begin{frame}
+    \titlepage
+\end{frame}
+% 标题页显示设置
+
+
+
+
+
+
+\section{数学竞赛问题的简化方法}
+\subsection{反例的构造}
+\subsection{问题的简化}
+
+
+\begin{frame}{反例构造1}
+\begin{spacing}{2.0}
+\textcolor{red}{例1.}若正项级数$\sum\limits_{n=0}^{\infty}u_n$收敛，则$u_n\to 0$，而$\int_{a}^{+\infty}f(x)dx $收敛一般不意味着$f(x)\to 0(x\to  +\infty)$.\\ \vspace{.5cm}例如$\int_{0}^{+\infty}\sin x^2dx =  \int_{0}^{+\infty} \frac{\sin t}{2\sqrt t}dt(x=\sqrt t)$收敛，但$\sin x^2\nrightarrow 0$（当$x\to +\infty$时）.
+	\end{spacing}
+\end{frame}
+
+\begin{frame}{反例构造2}
+	\begin{spacing}{2.0}
+		\textcolor{red}{例2.}没有原函数的可积函数.\\设$$
+		f\left( x \right) =\left\{ \begin{array}{l}
+			0,\ -1\le x\le 0\\
+			1,\ \ \ 0\le x\le 1\\
+		\end{array} \right. 
+		$$\\易见，$$f\text{在区间}\left[ -1,1 \right] \text{上可积。然而，}f\text{在}\left[ -1,1 \right] \text{上没有原函数。事实上，如果}f\text{在}$$
+		$$
+		\left[ -1,1 \right] \text{上有原函数}F\text{，即}F^'\left( x \right) =f\left( x \right) ,\ -1\le x\le 1
+		$$
+		
+		
+	\end{spacing}
+\end{frame}
+
+
+
+
+\begin{frame}{问题简化}
+设$\lim\limits_{n \rightarrow + \infty}a_{n}=a, \lim\limits_{n \rightarrow + \infty}b_{n}=b$.证明：\par
+$$\lim_{n \rightarrow + \infty}\frac{a_{1}b_{n}+a_{2}b_{n-1}+ \cdots +a_{n}b_{1}}{n}=ab$$
+证：能否“不妨设”$b=0$？\par 记$\beta _{n}=b_{n}-b$，$\alpha  _{n}=a_{n}-a$，则$\lim\limits _{n \rightarrow + \infty}\beta _{n}=0$，
+$\lim\limits _{n \rightarrow + \infty}\alpha _{n}=0$
+\begin{flalign}
+& \lim_{n \rightarrow + \infty}\frac{a_{1}b_{n}+a_{2}b_{n-1}+ \cdots +a_{n}b_{1}}{n}&
+\nonumber\\
+=& \lim_{n \rightarrow + \infty}\frac{a_{1}\beta _{n}+a_{2}\beta _{n-1}+ \cdots +a_{n}\beta _{1}}{n}
++b \lim _{n \rightarrow + \infty}\frac{a_{1}+a_{2}+ \cdots +a_{n}}{n}&\nonumber
+\end{flalign}
+\end{frame}
+
+
+\section{建模问题的简化方法——目标建模法}
+
+\end{document}
