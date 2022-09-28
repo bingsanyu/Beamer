@@ -52,9 +52,6 @@
 
 \section{数学竞赛问题的简化方法}
 \subsection{反例的构造}
-\subsection{问题的简化}
-
-
 \begin{frame}{反例构造1}
 \begin{spacing}{2.0}
 \textcolor{red}{例1.}若正项级数$\sum\limits_{n=0}^{\infty}u_n$收敛，则$u_n\to 0$，而$\int_{a}^{+\infty}f(x)dx $收敛一般不意味着$f(x)\to 0(x\to  +\infty)$.\\ \vspace{.5cm}例如$\int_{0}^{+\infty}\sin x^2dx =  \int_{0}^{+\infty} \frac{\sin t}{2\sqrt t}dt(x=\sqrt t)$收敛，但$\sin x^2\nrightarrow 0$（当$x\to +\infty$时）.
@@ -150,6 +147,7 @@ $=1$之间的每一个值.此与$f$的定义相矛盾.因此，$f\text{在}\left
 	\end{spacing}
 \end{frame}
 
+\subsection{问题的简化}
 \begin{frame}{问题简化1}
 	\begin{spacing}{1.5}
 		\textcolor{red}{例4.}设$\lim\limits_{n \rightarrow + \infty}a_{n}=a, \lim\limits_{n \rightarrow + \infty}b_{n}=b$.证明：\par
@@ -221,7 +219,7 @@ $\lim\limits _{n \rightarrow + \infty}\alpha _{n}=0$
 
 \begin{frame}{问题简化3}
 	\begin{spacing}{1.0}
-		$
+		\textcolor{red}{例6.}$
 		\text{证明：}\left( 1+\frac{1}{\boldsymbol{x}} \right) ^{\boldsymbol{x}}<\boldsymbol{e}<\left( 1+\frac{1}{\boldsymbol{x}} \right) ^{\boldsymbol{x}+1},\forall \boldsymbol{x}>0.
 		$\\
 		证：
@@ -245,5 +243,27 @@ $\lim\limits _{n \rightarrow + \infty}\alpha _{n}=0$
 \end{frame}
 
 \section{建模问题的简化方法——目标建模法}
+
+\begin{frame}{目标建模法}
+目标建模法是一种逆向建模方法，其实质是根据问题的目标，为了达到这个目标，而进行的建模过程。\\
+现在以2022国赛建模C题第三问为例，介绍如何使用目标建模法。
+\end{frame}
+\begin{frame}{目标建模法}
+看完题目后，我们就想象到这道题目最后的结果是什么形式，即问题的目标。\\
+对于这道题，我们要根据玻璃文物的化学成分对未知玻璃文物的化学成分进行分类。其本质是二分类问题。
+\end{frame}
+\begin{frame}{目标建模法}
+为了实现这个目标，我们首先生成一组虚拟变量，用0来代表高钾玻璃，1代表铅钡玻璃，自然联想到用Logistic回归来预测未知玻璃种类.\\
+目标建模法的另外一个优点是便于写作，可以提前设计好结果的表现形式，这样队友编程也有目标。
+\end{frame}
+
+\begin{frame}{目标建模法}
+$
+f^{'}\left( c \right) =0
+$
+即为逆的罗尔定理，
+$f^{'}\left( c \right) \ne 0$
+即为逆的拉格朗日定理，而罗尔定理与拉格朗日中值定理并没有本质区别。
+\end{frame}
 
 \end{document}
