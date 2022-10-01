@@ -1,4 +1,0 @@
-\beamer@sectionintoc {1}{数学竞赛问题的简化方法}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{反例的构造}{3}{0}{1}
-\beamer@subsectionintoc {1}{2}{问题的简化}{10}{0}{1}
-\beamer@sectionintoc {2}{建模问题的简化方法——目标建模法}{15}{0}{2}

@@ -1,6 +1,6 @@
 # Compiled class file
 *.fls
-.aux
+*.aux
 *.bbl
 *.blg
 *.idx

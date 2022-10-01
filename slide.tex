@@ -209,10 +209,10 @@ $\lim\limits _{n \rightarrow + \infty}\alpha _{n}=0$
 		$
 		，由连续函数的介质定理可知：
 		$
-		\text{存在}\xi \epsilon \left( \alpha ,c \right) ,\text{使得}F\left( \xi \right) =F\left( \beta \right) \text{，结论成立。}
+		\text{存在}\xi \epsilon \left( \alpha ,c \right) ,\text{使得}F\left( \xi \right) =F\left( \beta \right) \text{，结论成立.}
 		$
 		$
-		\text{同理可证，当}F\left( \alpha \right) <F\left( \beta \right) \text{时结论也成立。}
+		\text{同理可证，当}F\left( \alpha \right) <F\left( \beta \right) \text{时结论也成立.}
 		$
 	\end{spacing}
 \end{frame}
@@ -241,29 +241,18 @@ $\lim\limits _{n \rightarrow + \infty}\alpha _{n}=0$
 		\left( 1+\frac{1}{\boldsymbol{n}} \right) ^{\boldsymbol{n}+\boldsymbol{\alpha }}\le \boldsymbol{e}\le \left( 1+\frac{1}{\boldsymbol{n}} \right) ^{\boldsymbol{n}+\boldsymbol{\beta }.}
 		$$
 \end{frame}
-
 \section{建模问题的简化方法——目标建模法}
+\begin{frame}{目标建模法}
+目标建模法是一种逆向建模方法，其实质是从问题的目标出发，为了达到这个目标，而进行的建模过程.\\
+以2022国赛建模C题第三问为例，介绍如何使用目标建模法.
+\end{frame}
+\begin{frame}{目标建模法}
+看完题目后，我们就想象到这道题目最后的结果是什么形式，即问题的目标.\\
+对这道题，我们要根据玻璃文物的化学成分对未知玻璃文物的化学成分进行分类.其本质是二分类问题.
 
-\begin{frame}{目标建模法}
-目标建模法是一种逆向建模方法，其实质是根据问题的目标，为了达到这个目标，而进行的建模过程。\\
-现在以2022国赛建模C题第三问为例，介绍如何使用目标建模法。
 \end{frame}
 \begin{frame}{目标建模法}
-看完题目后，我们就想象到这道题目最后的结果是什么形式，即问题的目标。\\
-对于这道题，我们要根据玻璃文物的化学成分对未知玻璃文物的化学成分进行分类。其本质是二分类问题。
+为了实现这个目标，我们首先生成一组虚拟变量，用0代表高钾玻璃，用1代表铅钡玻璃.容易想到用$\boldsymbol{Logistic}$回归来预测未知玻璃的种类.\\
+目标建模法的另外一个优点是便于写作，因其可以提前设计好结果的表现形式.同时，也能给编程手一个准确的目标.
 \end{frame}
-\begin{frame}{目标建模法}
-为了实现这个目标，我们首先生成一组虚拟变量，用0来代表高钾玻璃，1代表铅钡玻璃，自然联想到用Logistic回归来预测未知玻璃种类.\\
-目标建模法的另外一个优点是便于写作，可以提前设计好结果的表现形式，这样队友编程也有目标。
-\end{frame}
-
-\begin{frame}{目标建模法}
-$
-f^{'}\left( c \right) =0
-$
-即为逆的罗尔定理，
-$f^{'}\left( c \right) \ne 0$
-即为逆的拉格朗日定理，而罗尔定理与拉格朗日中值定理并没有本质区别。
-\end{frame}
-
 \end{document}
